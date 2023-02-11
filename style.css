@@ -1,8 +1,72 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin:5vh 4vw 2vh 4vw;
     box-sizing: border-box;
 }
+
+.portada{    
+    height: 40vh;
+    border: 1px solid black;
+    margin : 0 0 1vh 0;
+    background-image: url(./assets/fondo/design1_image1.jpg);
+    display: block;
+}
+
+h1 {
+    font-size: 7vh;
+    font-family: 'Courier New', Courier, monospace;
+    vertical-align: top;
+    margin: 0;
+}
+
+.portada2{
+    background-color: black;
+    height: 5vh;
+    margin: 0;
+    display: block;
+}
+
+.texto_portada {
+    margin: 0;
+    display:inline;  
+    text-align: center;  
+    vertical-align:top;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo {
+    height: 4vh;
+    display: inline;
+}
+
+nav {
+    height: 22vh;
+    width: 20vw;
+    margin: 1vh 1vw 1vh 15vw;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align:top;
+}
+nav * {
+    margin: 1vh 3vw 6vh 3vw;
+    background-color: aqua;
+    display: inline-block;
+
+}
+
+main{
+    height: 40vh;
+    width: 40vw;
+    margin-top: 1vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+
 
 
 
