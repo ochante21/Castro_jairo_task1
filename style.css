@@ -1,66 +1,94 @@
 *{
     padding: 0 ;
-    margin:5vh 4vw 2vh 4vw;
+    margin:4vh 4vw 2vh 4vw;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
+header{
+    margin: 0;
+}
 .portada{    
     height: 40vh;
     border: 1px solid black;
     margin : 0 0 1vh 0;
     background-image: url(./assets/fondo/design1_image1.jpg);
     display: block;
+background-size:cover;
+background-position: center;
 }
 
 h1 {
     font-size: 7vh;
-    font-family: 'Courier New', Courier, monospace;
     vertical-align: top;
     margin: 0;
 }
 
 .portada2{
+    height: 3.5vh;
+    margin: 0 0 1vh 0;
     background-color: black;
-    height: 10vh;
-    border: 2px solid yellow;
     display: block;
+    text-align: center;
 }
 
 .texto_portada {
-    text-align: center;
+    vertical-align: top;
+    margin: 0;
     color: aliceblue;
-    font-family:'Courier New', Courier, monospace;
     display: inline-block;
 }
 
 .logo {
-    height: 4vh;
+    vertical-align: top;
+    margin: 0;
+    height: 6vh;
+    padding-left: 8vw;
 }
 
 nav {
     height: 22vh;
-    width: 20vw;
-    margin: 1vh 1vw 1vh 15vw;
-    border: 1px solid black;
+    width: 20%;
+    margin: 2vh 0 0 0;
+    /* border: 1px solid black; */
     display: inline-block;
+    box-sizing: content-box;
     vertical-align:top;
 }
 nav * {
-    margin: 1vh 3vw 6vh 3vw;
-    background-color: aqua;
+    margin: 1vh 3vw 5vh 3vw;
     display: inline-block;
 
 }
 
 main{
-    height: 40vh;
-    width: 40vw;
-    margin-top: 1vh;
-    border: 1px solid black;
+    height: 30vh;
+    width: 75%;
+    margin: 2vh 0 0 0;
+    /* border: 1px solid black; */
     box-sizing: border-box;
     vertical-align: top;
     display: inline-block;
 }
+section{
+    margin: 0;
+    padding-top: 1vh;
+}
+section > article {
+    margin: 0 0 2vh 0;
+    text-align:left;
+    vertical-align: top;
+}
+ h3{
+    margin: 0 0 0 1vw; 
+ }
+.correo{
+    margin: 0;
+}
+ section p{
+    margin: 0 0 0 1vw;
+ }
 
 
 
