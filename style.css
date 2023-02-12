@@ -21,23 +21,20 @@ h1 {
 
 .portada2{
     background-color: black;
-    height: 5vh;
-    margin: 0;
+    height: 10vh;
+    border: 2px solid yellow;
     display: block;
 }
 
 .texto_portada {
-    margin: 0;
-    display:inline;  
-    text-align: center;  
-    vertical-align:top;
+    text-align: center;
     color: aliceblue;
     font-family:'Courier New', Courier, monospace;
+    display: inline-block;
 }
 
 .logo {
     height: 4vh;
-    display: inline;
 }
 
 nav {
