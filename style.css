@@ -1,14 +1,14 @@
 *{
     padding: 0 ;
-    margin:4vh 4vw 2vh 4vw;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-
-header{
-    margin: 0;
+body{
+    margin:2vh 4vw 2vh 4vw;
 }
+
 .portada{    
     height: 40vh;
     border: 1px solid black;
@@ -26,32 +26,31 @@ h1 {
 }
 
 .portada2{
-    height: 3.5vh;
     margin: 0 0 1vh 0;
-    background-color: black;
-    display: block;
-    text-align: center;
+    display: flex;
+    border: solid 2px yellow;
 }
 
 .texto_portada {
-    vertical-align: top;
-    margin: 0;
     color: aliceblue;
-    display: inline-block;
+    text-align: center;
+    background-color: black;
+    position: relative;
 }
 
 .logo {
-    vertical-align: top;
-    margin: 0;
-    height: 6vh;
-    padding-left: 8vw;
-}
+    border: solid 2px white;
+    height: 5vh;
 
+}
+body{
+        margin:2vh 4vw 2vh 4vw;
+}
 nav {
-    height: 22vh;
+    /* height: 40vh; */
     width: 20%;
     margin: 2vh 0 0 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: inline-block;
     box-sizing: content-box;
     vertical-align:top;
@@ -63,10 +62,9 @@ nav * {
 }
 
 main{
-    height: 30vh;
     width: 75%;
     margin: 2vh 0 0 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     box-sizing: border-box;
     vertical-align: top;
     display: inline-block;
