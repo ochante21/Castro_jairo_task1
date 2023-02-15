@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    /* font-weight: 500; */
 }
 body{
     margin:2vh 4vw 2vh 4vw;
+}
+p{
+    font-weight: 500;
 }
 
 .portada{    
@@ -27,20 +30,20 @@ h1 {
 
 .portada2{
     margin: 0 0 1vh 0;
-    display: flex;
-    border: solid 2px yellow;
 }
 
 .texto_portada {
     color: aliceblue;
     text-align: center;
     background-color: black;
-    position: relative;
 }
 
 .logo {
     border: solid 2px white;
-    height: 5vh;
+    height: 10vh;
+    position: absolute;
+    right: 20vh;
+    top: 38vh;background-color: white;
 
 }
 body{
@@ -50,7 +53,7 @@ nav {
     /* height: 40vh; */
     width: 20%;
     margin: 2vh 0 0 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-block;
     box-sizing: content-box;
     vertical-align:top;
@@ -64,9 +67,8 @@ nav * {
 main{
     width: 75%;
     margin: 2vh 0 0 0;
-    border: 1px solid black;
-    box-sizing: border-box;
-    vertical-align: top;
+    /* border: 1px solid black; */
+    box-sizing:border-box;
     display: inline-block;
 }
 section{
@@ -78,16 +80,26 @@ section > article {
     text-align:left;
     vertical-align: top;
 }
- h3{
-    margin: 0 0 0 1vw; 
- }
 .correo{
     margin: 0;
 }
- section p{
-    margin: 0 0 0 1vw;
- }
+.reglas{
+    text-align: center;
+}
+u{
+    font-style: oblique;
 
+}
+table{
+    margin: 2vh;
+    width: 40vw;
+    text-align: center;
+}
+.tabla{
+    /* border: 2px solid black; */
+justify-content: center;    
+display: flex;
+}
 
 
 
