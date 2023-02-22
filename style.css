@@ -70,11 +70,19 @@ main{
     box-sizing:border-box;
     display: inline-block;
 }
-section{
+main>img{
+    margin-right: 2vh;
+    height: 15rem;
+    width: 10rem;    
+    object-fit:contain;
+    float: left;
+}
+.section{
+    border: 2px solid yellow;
     margin: 0;
     padding-top: 1vh;
 }
-section > article {
+.section > article {
     margin: 0 0 2vh 0;
     text-align:left;
     vertical-align: top;
